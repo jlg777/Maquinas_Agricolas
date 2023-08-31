@@ -1,0 +1,17 @@
+nav{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    display: flex; /*permite el siguiente comando para distribuir los nombres equitativamente*/
+    justify-content:space-around;
+    text-decoration: none;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+     }    
+.navheader{
+    color: black;
+    text-decoration: none;
+}     
+.navheader:hover{
+    color: rgb(111, 199, 99); 
+}
