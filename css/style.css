@@ -11,7 +11,21 @@ nav{
 .navheader{
     color: black;
     text-decoration: none;
-}     
+    }     
 .navheader:hover{
     color: rgb(111, 199, 99); 
+    }
+    
+#usuario{
+    text-decoration: none;
+    padding: 10px;
+    color: lightslategrey;
+    display: flex;
+    justify-content: right;
+    }
+.fa-solid{
+    padding-right: 10px;
+}
+#usuario:hover{
+    color: rgb(111, 199, 99);
 }
