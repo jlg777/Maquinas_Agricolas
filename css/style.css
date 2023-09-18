@@ -1,5 +1,8 @@
+body{
+    margin: 0px;
+    }
 nav{
-    padding: 10px;
+    padding: 10px ;
     width: 100%;
     text-align: center;
     display: flex; /*permite el siguiente comando para distribuir los nombres equitativamente*/
@@ -7,11 +10,34 @@ nav{
     text-decoration: none;
     border-top: 0.5px solid black;
     border-bottom: 0.5px solid black;
-     }    
+    }    
 .navheader{
     color: black;
     text-decoration: none;
-}     
+    }     
 .navheader:hover{
     color: rgb(111, 199, 99); 
-}
+    }
+
+#cabeza{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    } 
+#cabeza img{
+    height: 40px;
+    }
+#cabeza a{
+    text-decoration: none;
+    color: lightslategrey;
+    display: flex;
+    justify-content: right;
+    
+    }
+.fa-solid{
+   padding-right: 10px;
+    }
+#cabeza a:hover{
+    color: rgb(111, 199, 99);
+    }
