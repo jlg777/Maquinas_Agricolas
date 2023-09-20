@@ -1,295 +1,295 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-}
+    body {
+        font-family: 'Montserrat', sans-serif;
+    }
 
-.contenedor {
-    display: flex;
-    flex-flow: column nowrap;
-    background-color: rgb(12, 94, 39);
-}
+    .contenedor {
+        display: flex;
+        flex-flow: column nowrap;
+        background-color: rgb(12, 94, 39);
+    }
 
-.header {
-    background: url(../img/SU2WO257KBGR3NKZHCCK23AZEQ.jpg);
-    background-position: center;
-    background-size: cover;
-    background-attachment: contain;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-flow: column nowrap;
-    margin-bottom: 1rem;
-
-
-}
-
-.menu {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: start;
-    height: 150px;
-
-}
-
-.logo {
-    flex: 1 1 auto;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.logo a img {
-    width: 150px;
-    margin-left: 1rem;
-    padding-top: 20px;
-}
-
-.nav {
-    flex: 5 1 auto;
-    align-content: center;
-    margin-left: 180px;
-    margin-top: 20px;
-}
-
-.nav a {
-    color: #000;
-    font-family: 'Oswald', sans-serif;
-    text-decoration: none;
-    font-size: 1rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    padding: 0 1rem;
-
-}
-
-.nav a:hover {
-    color: darkorange;
-}
-
-.registro {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 auto;
-    align-items: center;
-    row-gap: 10px;
-    margin-top: 20px;
-}
-
-.registro a {
-    font-size: 1.1rem;
-    color: darkorange;
-    padding: 0.7rem 0;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 500;
-    border: 1px solid darkorange;
-    border-radius: 4px;
-    padding: 4px 12px;
-    font-family: 'Oswald', sans-serif;
-}
-
-.registro a:hover {
-    background-color: rgb(0, 0, 0, 0.4);
-    border-radius: 4px;
-    padding: 4px 12px;
-}
-
-i {
-    padding: 0 5px 0 0;
-}
-
-.slogan h1 {
-    text-align: center;
-    margin-bottom: 40px;
-    text-transform: capitalize;
-}
-
-.section {
-    display: flex;
-}
-
-.articulos {
-    display: flex;
-    flex-flow: row wrap;
-    background: #fff;
-    flex: 2 1 auto;
-    row-gap: 10px;
-    column-gap: 10px;
-}
-
-.article {
-    flex: 1 1 40%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-    padding: 10px 10 0 0px;
-
-}
-
-.articulos .article img {
-    width: 100%;
-    padding: 10px 10px 0 10px;
-}
-
-.article h2 {
-    padding: 1rem 0;
-    font-size: 1.4rem;
-    text-transform: uppercase;
-}
-
-.article p {
-    padding: 0 50px;
-
-}
-
-.navegacion {
-    display: flex;
-    justify-content: center;
-    flex: 1 1 100%;
-    background: green;
-    height: 3rem;
-
-}
-
-.navegacion a {
-    font-size: 1rem;
-    text-transform: uppercase;
-    padding: 1rem 0.7rem;
-    letter-spacing: 2px;
-    color: #fff;
-    text-decoration: none;
-}
-
-.aside {
-    background: rgb(12, 94, 39);
-    flex: 1 1 200%;
-    padding: 10px 10px 10px 10px;
-}
-
-.aside .publicidad img {
-    width: 100%;
-}
-
-.publicidad {
-    background-color: gray;
-    margin: 0 10px 10px;
-}
-
-.footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    top: 40px;
-    gap: 10px;
-    position: relative;
-    height: 300px;
-
-}
-
-.redsocial a {
-    position: absolute;
-    top: 30px;
-    left: 20px;
-}
-
-#face {
-    left: 60px;
-}
-
-#tw {
-    left: 100px;
-}
-
-.logo-footer img {
-    width: 200px;
-    height: auto;
-}
-
-.links ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.links a {
-    text-decoration: none;
-    color: #000;
-    font-weight: 600;
-}
-
-.copyright p {
-    padding: 5px 0;
-    color: #fff;
-}
+    .header {
+        background: url(../img/SU2WO257KBGR3NKZHCCK23AZEQ.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-flow: column nowrap;
+        margin-bottom: 1rem;
 
 
-.suscripcion {
-    background-color: rgb(38, 95, 38);
-}
+    }
 
-.container {
-    /*pagina de suscripcion*/
-    max-width: 400px;
-    margin-top: 20px;
-    margin-left: 480px;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
-}
+    .menu {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: start;
+        height: 150px;
 
-.container h1 {
-    font-size: 36px;
-    margin-top: 10px;
-    margin-bottom: 40px;
-    text-align: center;
-    color: rgb(12, 94, 39);
-}
+    }
 
-form label {
-    display: block;
-    margin-bottom: 0px;
-    color: rgb(0, 0, 0);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: underline;
-    font-weight: bold;
-}
+    .logo {
+        flex: 1 1 auto;
+        display: flex;
+        justify-content: space-between;
 
-form input[type="text"],
-form input[type="email"],
-form input[type="password"] {
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: 2px solid rgb(153, 162, 151);
-    border-radius: 3px;
-}
+    }
 
-form input[type="submit"] {
-    display: block;
-    width: 80%;
-    padding: 10px;
-    margin-left: 35px;
-    background-color: #2e9433;
-    border: none;
-    border-radius: 3px;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
+    .logo a img {
+        width: 150px;
+        margin-left: 1rem;
+        padding-top: 20px;
+    }
 
-form input[type="submit"]:hover {
-    background-color: #0a61b8;
-}
+    .nav {
+        flex: 5 1 auto;
+        align-content: center;
+        margin-left: 180px;
+        margin-top: 20px;
+    }
+
+    .nav a {
+        color: #000;
+        font-family: 'Oswald', sans-serif;
+        text-decoration: none;
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 0 1rem;
+
+    }
+
+    .nav a:hover {
+        color: darkorange;
+    }
+
+    .registro {
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
+        align-items: center;
+        row-gap: 10px;
+        margin-top: 20px;
+    }
+
+    .registro a {
+        font-size: 1.1rem;
+        color: darkorange;
+        padding: 0.7rem 0;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+        border: 1px solid darkorange;
+        border-radius: 4px;
+        padding: 4px 12px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .registro a:hover {
+        background-color: rgb(0, 0, 0, 0.4);
+        border-radius: 4px;
+        padding: 4px 12px;
+    }
+
+    i {
+        padding: 0 5px 0 0;
+    }
+
+    .slogan h1 {
+        text-align: center;
+        margin-bottom: 40px;
+        text-transform: capitalize;
+    }
+
+    .section {
+        display: flex;
+    }
+
+    .articulos {
+        display: flex;
+        flex-flow: row wrap;
+        background: #fff;
+        flex: 2 1 auto;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+
+    .article {
+        flex: 1 1 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 10px 10 0 0px;
+
+    }
+
+    .articulos .article img {
+        width: 100%;
+        padding: 10px 10px 0 10px;
+    }
+
+    .article h2 {
+        padding: 1rem 0;
+        font-size: 1.4rem;
+        text-transform: uppercase;
+    }
+
+    .article p {
+        padding: 0 50px;
+
+    }
+
+    .navegacion {
+        display: flex;
+        justify-content: center;
+        flex: 1 1 100%;
+        background: green;
+        height: 3rem;
+
+    }
+
+    .navegacion a {
+        font-size: 1rem;
+        text-transform: uppercase;
+        padding: 1rem 0.7rem;
+        letter-spacing: 2px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .aside {
+        background: rgb(12, 94, 39);
+        flex: 1 1 200%;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .aside .publicidad img {
+        width: 100%;
+    }
+
+    .publicidad {
+        background-color: gray;
+        margin: 0 10px 10px;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        top: 40px;
+        gap: 10px;
+        position: relative;
+        height: 300px;
+
+    }
+
+    .redsocial a {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+    }
+
+    #face {
+        left: 60px;
+    }
+
+    #tw {
+        left: 100px;
+    }
+
+    .logo-footer img {
+        width: 200px;
+        height: auto;
+    }
+
+    .links ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .links a {
+        text-decoration: none;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .copyright p {
+        padding: 5px 0;
+        color: #fff;
+    }
+
+
+    .suscripcion {
+        background-color: rgb(38, 95, 38);
+    }
+
+    .container {
+        /*pagina de suscripcion*/
+        max-width: 400px;
+        margin-top: 20px;
+        margin-left: 480px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+    }
+
+    .container h1 {
+        font-size: 36px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        text-align: center;
+        color: rgb(12, 94, 39);
+    }
+
+    form label {
+        display: block;
+        margin-bottom: 0px;
+        color: rgb(0, 0, 0);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    form input[type="password"] {
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 2px solid rgb(153, 162, 151);
+        border-radius: 3px;
+    }
+
+    form input[type="submit"] {
+        display: block;
+        width: 80%;
+        padding: 10px;
+        margin-left: 35px;
+        background-color: #2e9433;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    form input[type="submit"]:hover {
+        background-color: #0a61b8;
+    }
