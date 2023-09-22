@@ -1,25 +1,22 @@
+    /* ****NO MODIFICAR ESTOS CODIGOS HASTA QUE SE MENCIONE, SON 3 LUGARES, UNO PARA CADA DISPOSITIVO (MAIN RESPONSIVO)   */
     * {
         padding: 0;
         margin: 0;
-
     }
 
     .contenedor {
-        
+
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, auto);
     }
 
-    /* responsivo para nav main y footer */
-    /*NO MODIFICAR ESTOS CODIGOS*/
-    /* dispositivos moviles orientacion vertical */
-    @media only screen and (min-width: 320px) {
-        .contenedor {
-            row-gap: 3px;
-            gap: 3px;
-        }
+    /* COMIENZA RESPONSIVO */
+    /* telefonos moviles orientacion vertical */
 
+    @media only screen and (min-width: 320px) {
+        
+        
         .header {
             grid-area: 1/1/2/5;
             background: url(../img/SU2WO257KBGR3NKZHCCK23AZEQ.jpg);
@@ -32,27 +29,24 @@
             grid-template-rows: repeat(2, auto);
         }
 
-
-
         .logo {
             grid-area: 1/1/2/3;
-            }
+            padding-top: 8px;
+        }
 
         .logo a img {
             width: 150px;
             margin-left: 10px;
-            
+            max-width: 50px;
+
         }
 
         .nav {
-
             grid-area: 2/1/3/2;
             align-content: center;
-
         }
 
         .nav a {
-
             color: #ffffff;
             font-family: 'Oswald', sans-serif;
             text-decoration: none;
@@ -60,7 +54,7 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             padding: 10px;
-
+            
         }
 
         .nav a:hover {
@@ -72,27 +66,36 @@
             flex-direction: column;
             flex: 1 1 auto;
             text-align: right;
-            
         }
 
         #largo {
             display: none;
         }
 
-        #solo {/*inicio usuario*/
+        #solo {
+            /*inicio usuario*/
             color: rgb(255, 255, 255);
             padding-right: 10px;
-            }
+        }
 
 
         #solo:hover {
             color: darkorange;
-                    }
+        }
 
         .slogan {
             display: none;
         }
-        
+
+/* ESTE ES EL SECTOR PARA LA PARTE RESPONSIVA DEL MAIN TAMAÑO TELEFONOS MOVILES */
+
+
+
+
+
+
+
+/* NO MODIFICAR DE AQUI EN ADELANTE, HASTA */
         .footer {
             grid-area: 3/1/4/5;
             background-color: rgb(206, 206, 206);
@@ -100,50 +103,59 @@
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: repeat(3, auto);
             row-gap: 5 px;
-            gap: 5 px;          
+            gap: 5 px;
         }
 
-        .redsocial  {
+        .redsocial {
             grid-area: 1/1/2/5;
-            text-align: center;   
-            padding: 10px;         
+            text-align: center;
+            padding: 10px;
         }
+
         .redsocial a {
             text-align: center;
             margin-right: 30px;
-        }        
-        
-        .logo-footer img {
-           display: none;
         }
-        .links{
+
+        .logo-footer img {
+            display: none;
+        }
+
+        .links {
             grid-area: 2/1/3/5;
             text-align: center;
             padding: 5px;
         }
+
         .links a {
-            
+
             text-decoration: none;
             color: #000;
             font-weight: 600;
-            justify-content:space-around;             
+            justify-content: space-around;
         }
+
         .links a:hover {
             color: darkorange;
-            
         }
-        .links li{
+
+        .links li {
             padding: 3px;
         }
-        .copyright  {
+
+        .copyright {
+            background-color: rgb(158, 158, 158);
             grid-area: 3/1/4/5;
             text-align: center;
             padding: 10px;
             color: #fff;
         }
+    
     }
 
-    /*  moviles horizontales o tablets */
+
+
+    /*  moviles horizontales o tablets 
     @media only screen and (min-width: 768px) {
         .contenedor {
             row-gap: 5px;
@@ -161,186 +173,148 @@
         .footer {
             grid-area: 3/1/4/5;
         }
-    }
+    }*/
 
-    /* notebooks */
-    @media only screen and (min-width: 1200px) {
-        .contenedor {
-            row-gap: 8px;
-            gap: 8px;
-        }
 
+
+    /* notebooks */      
+    
+    @media only screen and (min-width: 1000px) {
+        
         .header {
             grid-area: 1/1/2/5;
+            background: url(../img/SU2WO257KBGR3NKZHCCK23AZEQ.jpg);
+            background-position: center;
+            background-size: cover;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, auto);
+            min-height: 100px;
+            align-content: center;
+            align-items: center;           
         }
 
-        .main {
-            grid-area: 2/1/3/5;
+        .logo {
+            grid-area: 1/1/2/2;                   
         }
 
+        .logo a img {
+            width: 150px;
+            margin-left: 10px;
+            min-width: 150px;           
+        }
+
+        .nav {
+            grid-area: 1/2/2/4;
+            text-align: center;
+            /* padding-top: 30px;  */
+            align-content: center;                
+        }
+
+        .nav a {
+            color: #ffffff;
+            font-family: 'Oswald', sans-serif;
+            text-decoration: none;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;          
+        }
+
+        .nav a:hover {
+            color: darkorange;
+        }
+
+        .registro {
+            grid-area: 1/4/2/5;                  
+            text-align: center;
+        
+        }
+        
+        #largo {
+            display: contents;
+            color: rgb(255, 255, 255);
+            font-family: 'Oswald', sans-serif;
+            text-decoration: none;
+            font-size: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;                  
+        }    
+        
+        .registro:hover{
+            color:  darkorange;;
+            background-color: rgb(0, 0, 0, 0.4);
+            border-radius: 4px;
+            padding: 4px 12px;  }
+        #solo{
+            display: none;          
+        }
+
+        .slogan {
+            grid-area: 2/2/3/4;
+        }
+
+/* ESTE ES EL SECTOR PARA LA PARTE RESPONSIVA DEL MAIN TAMAÑO NOTEBOOKS */
+
+
+
+
+
+
+
+/* NO MODIFICAR DE AQUI EN ADELANTE */
         .footer {
             grid-area: 3/1/4/5;
+            background-color: rgb(206, 206, 206);
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, auto);
+            row-gap: 5 px;
+            gap: 5 px;
         }
+
+        .redsocial {
+            grid-area: 1/1/2/5;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .redsocial a {
+            text-align: center;
+            margin-right: 30px;
+        }
+
+        .logo-footer img {
+            display: none;
+        }
+
+        .links {
+            grid-area: 2/1/3/5;
+            text-align: center;
+            padding: 5px;
+        }
+
+        .links a {
+
+            text-decoration: none;
+            color: #000;
+            font-weight: 600;
+            justify-content: space-around;
+        }
+
+        .links a:hover {
+            color: darkorange;
+        }
+
+        .links li {
+            padding: 3px;
+        }
+
+        .copyright {
+            background-color: rgb(158, 158, 158);
+            grid-area: 3/1/4/5;
+            text-align: center;
+            padding: 10px;
+            color: #fff;
+        }
+    
     }
-
-
-
-
-
-    /*Comienza estilos */
-    /* .header {
-        background: url(../img/SU2WO257KBGR3NKZHCCK23AZEQ.jpg);
-        background-position: center;
-        background-size: cover;
-        background-attachment: contain;
-        background-repeat: no-repeat;
-        display: flex;
-        flex-flow: column nowrap;
-        margin-bottom: 1rem;
-    }
-
-    body {
-        font-family: 'Montserrat', sans-serif;
-    }
-
-    .menu {
-        display: flex;
-        flex-flow: row nowrap;
-        align-items: start;
-        height: 150px;
-
-    }
-
-    .logo {
-        flex: 1 1 auto;
-        display: flex;
-        justify-content: space-between;
-
-    }
-
-    .logo a img {
-        width: 150px;
-        margin-left: 1rem;
-        padding-top: 20px;
-    }
-
-    .nav {
-        flex: 5 1 auto;
-        align-content: center;
-        margin-left: 180px;
-        margin-top: 20px;
-    }
-
-    .nav a {
-        color: #000;
-        font-family: 'Oswald', sans-serif;
-        text-decoration: none;
-        font-size: 1rem;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        padding: 0 1rem;
-
-    }
-
-    .nav a:hover {
-        color: darkorange;
-    }
-
-    .registro {
-        display: flex;
-        flex-direction: column;
-        flex: 1 1 auto;
-        align-items: center;
-        row-gap: 10px;
-        margin-top: 20px;
-    }
-
-    .registro a {
-        font-size: 1.1rem;
-        color: darkorange;
-        padding: 0.7rem 0;
-        text-decoration: none;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        font-weight: 500;
-        border: 1px solid darkorange;
-        border-radius: 4px;
-        padding: 4px 12px;
-        font-family: 'Oswald', sans-serif;
-    }
-
-    .registro a:hover {
-        background-color: rgb(0, 0, 0, 0.4);
-        border-radius: 4px;
-        padding: 4px 12px;
-    }
-
-
-    .navegacion {
-        display: flex;
-        justify-content: center;
-        flex: 1 1 100%;
-        background: green;
-        height: 3rem;
-
-    }
-
-    .navegacion a {
-        font-size: 1rem;
-        text-transform: uppercase;
-        padding: 1rem 0.7rem;
-        letter-spacing: 2px;
-        color: #fff;
-        text-decoration: none;
-    }
-
-
-
-    .footer {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        top: 40px;
-        gap: 10px;
-        position: relative;
-        height: 300px;
-
-    }
-
-    .redsocial a {
-        position: absolute;
-        top: 30px;
-        left: 20px;
-    }
-
-    #face {
-        left: 60px;
-    }
-
-    #tw {
-        left: 100px;
-    }
-
-    .logo-footer img {
-        width: 200px;
-        height: auto;
-    }
-
-    .links ul {
-        list-style: none;
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .links a {
-        text-decoration: none;
-        color: #000;
-        font-weight: 600;
-    }
-
-    .copyright p {
-        padding: 5px 0;
-        color: #fff;
-    } */
