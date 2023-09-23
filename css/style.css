@@ -1,3 +1,5 @@
+
+
 /*body{
     margin: 0px;
     }
@@ -41,6 +43,8 @@ nav{
 #cabeza a:hover{
     color: rgb(111, 199, 99);
     }*/
+
+/*@import "contacto.css";*/
 
 *{
     padding: 0;
@@ -281,11 +285,11 @@ body{
         }
         
 
-        .suscripcion{
+     /*   .suscripcion{
             background-color: rgb(38, 95, 38);
         }
 
-        .container {                /*pagina de suscripcion*/
+        .container {                
             max-width: 400px;
             margin-top: 20px;
             margin-left: 480px;
@@ -303,7 +307,7 @@ body{
             color: rgb(12, 94, 39);
         }
         
-        form label {
+            label {
             display: block;   
             margin-bottom: 0px;
             color: rgb(0,0, 0);
@@ -312,9 +316,9 @@ body{
             font-weight: bold;
         }
         
-        form input[type="text"],
-        form input[type="email"],
-        form input[type="password"] {
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
             width: 90%;    
             padding: 10px;
             margin-bottom: 10px;
@@ -324,7 +328,7 @@ body{
             border-radius: 3px;
         }
         
-        form input[type="submit"] {
+        input[type="submit"] {
             display: block;
             width: 80%;
             padding: 10px;
@@ -335,8 +339,10 @@ body{
             color: #fff;
             cursor: pointer;
             transition: background-color 0.3s ease;
-        }
+        } */
         
-        form input[type="submit"]:hover {
+      /*  input[type="submit"]:hover {
             background-color: #0a61b8;
-        }
+        }*/
+
+        
