@@ -94,8 +94,10 @@
 
     /* ESTE ES EL SECTOR PARA LA PARTE RESPONSIVA DEL MAIN TAMAÑO TELEFONOS MOVILES */
 
-    /*COMPLETAR AQUI */
-
+    main {
+        grid-area: 2/1/3/5; /*No modificar, ubica main en el grid principal, */
+        /* rellenar aqui, podes usar cualquier display*/
+    }
 
     /* NO MODIFICAR DE AQUI EN ADELANTE, HASTA  NUEVO AVISO */
 
@@ -239,9 +241,10 @@
 
     /* ESTE ES EL SECTOR PARA LA PARTE RESPONSIVA DEL MAIN TAMAÑO MOVIL HORIZONTAL O TABLETS */
 
-    /*COMPLETAR AQUI 
-    .main{}
-    COMPLETAR AQUI */
+    main {
+        grid-area: 2/1/3/5; /*No modificar, ubica main en el grid principal, */
+        /* rellenar aqui, podes usar cualquier display*/
+    }
 
 
     /* NO MODIFICAR DE AQUI EN ADELANTE, HASTA  NUEVO AVISO */
@@ -402,9 +405,10 @@
 
     /* ESTE ES EL SECTOR PARA LA PARTE RESPONSIVA DEL MAIN TAMAÑO NOTEBOOKS */
 
-    /*COMPLETAR AQUI 
-    .div{}
-    COMPLETAR AQUI */
+    main {
+        grid-area: 2/1/3/5; /*No modificar, ubica main en el grid principal, */
+        /* rellenar aqui, podes usar cualquier display*/
+    }
 
 
     /* NO MODIFICAR DE AQUI EN ADELANTE */
