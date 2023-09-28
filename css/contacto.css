@@ -152,7 +152,7 @@ i{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: ;
+   /* font-size: ;*/
     background-color: #20680e;
     border-style: inset rgb(214, 178, 18);
     row-gap: 1rem;
@@ -316,6 +316,7 @@ iframe{
     .redsocial a {
         text-align: center;
         margin-right: 30px;
+        text-decoration: none;
     }
 
     .links {
@@ -468,6 +469,7 @@ iframe{
     .redsocial a {
         text-align: center;
         margin-right: 30px;
+        text-decoration: none;
     }
 
     .links {
@@ -632,6 +634,7 @@ iframe{
     .redsocial a {
         text-align: center;
         margin-right: 30px;
+        text-decoration: none;
     }
 
     .links {
