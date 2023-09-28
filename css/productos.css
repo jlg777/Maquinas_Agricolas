@@ -125,6 +125,7 @@
     .redsocial a {
         text-align: center;
         margin-right: 30px;
+        text-decoration: none;
     }
 
     .links {
@@ -277,6 +278,7 @@
     .redsocial a {
         text-align: center;
         margin-right: 30px;
+        text-decoration: none;
     }
 
     .links {
@@ -436,6 +438,7 @@
         grid-area: 1/1/2/5;
         text-align: center;
         padding: 10px;
+        text-decoration: none;
     }
 
     .redsocial a {
