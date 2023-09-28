@@ -2,8 +2,6 @@
 * {
     padding: 0;
     margin: 0;
-    
-
 }
 
 .contenedor {
@@ -440,12 +438,12 @@
         grid-area: 1/1/2/5;
         text-align: center;
         padding: 10px;
+        text-decoration: none;
     }
 
     .redsocial a {
         text-align: center;
         margin-right: 30px;
-        text-decoration: none;
     }
 
     .links {
