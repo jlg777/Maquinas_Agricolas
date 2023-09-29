@@ -416,6 +416,38 @@
         /* rellenar aqui, podes usar cualquier display*/
     }
 
+    /* aca va nosotros
+    */
+    .cont-menu{
+        width: 100%;
+        max-width: 250px;
+        background: #1c1c1c;
+        height: 100vh;
+        position: relative;
+    }
+    
+    .cont-menu aside a{
+        display: block;
+        text-decoration: none;
+        padding: 20px;
+        color: #c7c7c7;
+        border-left: 5px solid transparent;
+    }
+    .nosotros{
+        display: flex;
+    }
+    .cont-menu aside a:hover{
+        border-left: 5px solid #c7c7c7;
+        background: #1f1f1f;
+    }
+    #nuestra, #reseña, #mision, #valores {
+        background-color: rgba(4, 143, 73, 0.3);
+        backdrop-filter: blur(20px);
+        border: solid 1px (255,255,255, 0.5);
+        border-radius: 5px;
+        box-shadow: 0 8px 32px rgba(255,255,255,0.18);
+        margin: 10px;
+    }
 
     /* NO MODIFICAR DE AQUI EN ADELANTE */
 
@@ -477,3 +509,4 @@
         color: #fff;
     }
 }
+
