@@ -41,7 +41,6 @@ main {
     justify-content: center;
     align-items: center;
     flex: 1 1 auto;
-
 }
 
 h1,
@@ -61,7 +60,7 @@ form {
     margin-top: 17px;
     padding: 20px;
     background-color: #20680e;
-
+    padding: 40px;
 
 }
 
@@ -120,6 +119,7 @@ input[type="submit"]:active {
     justify-content: center;
     align-items: center;
     flex: 1 1 auto
+    
 }
 
 .telefono {
@@ -163,7 +163,7 @@ i {
     margin-bottom: 1rem;
     width: 100%;
     letter-spacing: 1px;
-    border: 4px inset rgb(214, 178, 18);
+    border: 4px outset rgb(214, 178, 18);
    
 }
 
