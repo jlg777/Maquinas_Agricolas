@@ -17,10 +17,25 @@
     border-color: #000;
     width: 100%;
     height: 300px;
+ }
+ .main{
+    font-family: 'Courier New';
+    color: rgb(29, 29, 29);
+    margin: 10px;
+ }
+.main h2 {
+    margin: 20px px;
+    
+   
 }
-h2 {
+.main h3 {
+    
+} 
+.main p{
     color: rgb(29, 29, 29);
     font-family: monospace;
+    text-align: justify;
+    margin: 10px;
 }
 
 /* COMIENZA RESPONSIVO */
