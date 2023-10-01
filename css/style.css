@@ -1,8 +1,7 @@
 /* ****NO MODIFICAR ESTOS CODIGOS HASTA QUE SE MENCIONE, SON 3 LUGARES, UNO PARA CADA DISPOSITIVO (MAIN RESPONSIVO)   */
 * {
     padding: 0;
-    margin: 0;
-    
+    margin: 0;    
 
 }
 
@@ -12,6 +11,17 @@
     grid-template-rows: repeat(3, auto);
 }
 
+.carrusel {
+    background-color: cadetblue;
+    margin: 10px 0px;
+    border-color: #000;
+    width: 100%;
+    height: 300px;
+}
+h2 {
+    color: rgb(29, 29, 29);
+    font-family: monospace;
+}
 
 /* COMIENZA RESPONSIVO */
 /*##################################################################*/
