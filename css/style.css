@@ -73,7 +73,7 @@
  
   .tarjeta{
     padding: 10px;
-    
+    width: 33%; 
     border: 1px solid lightgray;
     box-shadow: 2px 2px 8px 4px #d3d3d3d1;
     border-radius:15px;
@@ -81,6 +81,11 @@
   }
 .tarjeta img{
     object-fit: cover;
+    width: 100%;
+}
+h4 {
+    margin: 10px 0px;
+
 }
  
 
@@ -168,11 +173,83 @@
     }
 
     /* ESTE ES EL SECTOR PARA LA PARTE RESPONSIVA DEL MAIN TAMAÑO TELEFONOS MOVILES */
-
+    .testimonios{
+        
+        flex-direction:column;
+        margin-right: 20px;
+               
+      }
+      .tarjeta{
+        /* margin: 10px 0px; */
+        width: 100%; 
+        
+      }
     .main {
-        grid-area: 2/1/3/5;
-        /*No modificar, ubica main en el grid principal, */
-        /* rellenar aqui, podes usar cualquier display*/
+        grid-area: 2/1/3/5; /*ubicacion en el grid general */
+        margin: 20px 10px;
+        font-family: 'Courier New';
+        color: rgb(29, 29, 29);
+    }
+
+    .main h2,
+    h3 {
+        padding: 10px 0px;
+    }
+
+    .main p {
+        color: rgb(29, 29, 29);
+        font-family: monospace;
+        text-align: justify;
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+    .construccion h3,
+    .eventos h3,
+    .iso h3 {
+        grid-area: 1/1/2/7;
+    }
+
+    .construccion p,
+    .eventos p, .iso p {
+        grid-area: 3/1/4/7;        
+    }
+    
+    .slider {
+        margin: auto;
+        grid-area: 2/1/3/7;
+        overflow: hidden;
+        place-items: center;
+    }
+
+    .slideriso {
+        margin: auto;
+        grid-area: 2/1/3/7;
+        overflow: hidden;
+        place-items: center
+    }
+
+    .construccion,
+    .iso,
+    .eventos {
+        margin-bottom: 30px;
+    }
+
+    .slider ul {
+        display: flex;
+        width: 300%;
+        animation: cambio 25s infinite alternate linear;
+    }
+
+    .slider li {
+        width: 100%;
+        list-style: none;
+        text-align: right;
+    }
+
+    .slider img {
+        width: 100%;
+        height: 100%;
     }
 
     /* NO MODIFICAR DE AQUI EN ADELANTE, HASTA  NUEVO AVISO */
@@ -320,11 +397,72 @@
     /* ESTE ES EL SECTOR PARA LA PARTE RESPONSIVA DEL MAIN TAMAÑO MOVIL HORIZONTAL O TABLETS */
 
     .main {
-        grid-area: 2/1/3/5;
-        /*No modificar, ubica main en el grid principal, */
-        /* rellenar aqui, podes usar cualquier display*/
+        grid-area: 2/1/3/5; /*ubicacion en el grid general */
+        margin: 20px 10px;
+        font-family: 'Courier New';
+        color: rgb(29, 29, 29);
     }
 
+    .main h2,
+    h3 {
+        padding: 10px 0px;
+    }
+
+    .main p {
+        color: rgb(29, 29, 29);
+        font-family: monospace;
+        text-align: justify;
+        font-size: 1em;
+        margin-top: 10px;
+    }
+
+    .construccion h3,
+    .eventos h3,
+    .iso h3 {
+        grid-area: 1/1/2/7;
+    }
+
+    .construccion p,
+    .eventos p, .iso p {
+        grid-area: 3/1/4/7;        
+    }
+    
+    .slider {
+        margin: auto;
+        grid-area: 2/1/3/7;
+        overflow: hidden;
+        place-items: center;
+    }
+
+    .slideriso {
+        margin: auto;
+        grid-area: 2/1/3/7;
+        overflow: hidden;
+        place-items: center
+    }
+
+    .construccion,
+    .iso,
+    .eventos {
+        margin-bottom: 30px;
+    }
+
+    .slider ul {
+        display: flex;
+        width: 300%;
+        animation: cambio 25s infinite alternate linear;
+    }
+
+    .slider li {
+        width: 100%;
+        list-style: none;
+        text-align: right;
+    }
+
+    .slider img {
+        width: 100%;
+        height: 100%;
+    }
 
     /* NO MODIFICAR DE AQUI EN ADELANTE, HASTA  NUEVO AVISO */
 
@@ -502,7 +640,7 @@
         color: rgb(29, 29, 29);
         font-family: monospace;
         text-align: justify;
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     .construccion h3,
