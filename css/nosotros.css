@@ -250,6 +250,58 @@
         /* rellenar aqui, podes usar cualquier display*/
     }
 
+/* aca va nosotros
+    */
+    .cont-menu{
+        width: 100%;
+        max-width: 250px;
+        background: #1c1c1c;
+        height: 100vh;
+        position: relative;
+        display: none;
+    }
+    
+    .cont-menu aside a{
+        display: block;
+        text-decoration: none;
+        padding: 20px;
+        color: #c7c7c7;
+        border-left: 5px solid transparent;
+        
+    }
+    .nosotros{
+        display: flex;
+    }
+    .cont-menu aside a:hover{
+        border-left: 5px solid #c7c7c7;
+        background: #1f1f1f;
+    }
+    #nuestra, #reseña, #mision, #valores {
+        background-color: rgba(4, 143, 73, 0.3);
+        backdrop-filter: blur(20px);
+        border: solid 1px (255,255,255, 0.5);
+        border-radius: 5px;
+        box-shadow: 0 8px 32px rgba(255,255,255,0.18);
+        margin: 10px;
+    }
+    .checkbtn{
+        font-size: 30px;
+        color:#fff;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: block;
+    }
+    #check{
+        display: block;
+    }
+    #check input[type=cradio]:checked + .cont-menu{
+        display: block;
+        text-align: center;
+        transition: all .5s;
+    }
+
 
     /* NO MODIFICAR DE AQUI EN ADELANTE, HASTA  NUEVO AVISO */
 
@@ -424,6 +476,7 @@
         background: #1c1c1c;
         height: 100vh;
         position: relative;
+        display: block;
     }
     
     .cont-menu aside a{
@@ -447,6 +500,18 @@
         border-radius: 5px;
         box-shadow: 0 8px 32px rgba(255,255,255,0.18);
         margin: 10px;
+    }
+    .checkbtn{
+        font-size: 30px;
+        color:#fff;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
     }
 
     /* NO MODIFICAR DE AQUI EN ADELANTE */
