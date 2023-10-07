@@ -249,6 +249,9 @@
         grid-area: 2/1/3/5; /*No modificar, ubica main en el grid principal, */
         /* rellenar aqui, podes usar cualquier display*/
     }
+    .main > div{
+        padding: auto;
+    }
 
 /* aca va nosotros
     */
