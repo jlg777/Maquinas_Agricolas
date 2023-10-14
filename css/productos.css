@@ -8,8 +8,47 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, auto);
+
 }
 
+.tarjeta {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, auto);
+
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius: 15px;
+    font-family: sans-serif;
+    background-color: rgba(253, 249, 185, 0.295);
+    align-items: center;
+
+
+}
+
+.main p {
+
+    text-align: justify;
+
+}
+
+.tarjeta h3 {
+    text-align: center;
+
+
+}
+
+.tarjeta p {
+
+    text-align: left;
+
+}
+
+.imagenes img {
+
+    object-fit: cover;
+
+}
 
 /* COMIENZA RESPONSIVO */
 /*##################################################################*/
@@ -44,7 +83,7 @@
         grid-area: 2/1/3/5;
         text-align: center;
         padding: 15px 0px;
-       /* background: url(../img/fondo7.jpg);
+        /* background: url(../img/fondo7.jpg);
         /*opcion 2*/
         background: url(../img/fondo6.jpg);
         background-position: center;
@@ -97,9 +136,55 @@
     /* ESTE ES EL SECTOR PARA LA PARTE RESPONSIVA DEL MAIN TAMAÑO TELEFONOS MOVILES */
 
     .main {
-        grid-area: 2/1/3/5; /*No modificar, ubica main en el grid principal, */
-        /* rellenar aqui, podes usar cualquier display*/
+        grid-area: 2/1/3/5;
+        /*No modificar, ubica main en el grid principal, */
+        margin: 10px;
     }
+
+    .tarjeta {
+        margin: 10px 0px;
+        padding: 10px;
+    }
+
+    .main h2 {
+        padding: 10px 0px;
+
+    }
+
+    .main p {
+        padding-bottom: 10px;
+        font-size: 1em;
+    }
+
+    .contenido {
+        grid-area: 1/4/2/7;
+    }
+
+    .tarjeta h3 {
+        padding: 10px 0px;
+        font-size: 0.9em;
+
+    }
+
+    .tarjeta p {
+        padding: 0px;
+        margin-left: 10px;
+        font-size: 0.8em;
+    }
+
+    .tarjeta .imagenes {
+        grid-area: 1/1/2/4;
+
+    }
+
+    .imagenes img {
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+
+    }
+
+
 
     /* NO MODIFICAR DE AQUI EN ADELANTE, HASTA  NUEVO AVISO */
 
@@ -246,8 +331,51 @@
     /* ESTE ES EL SECTOR PARA LA PARTE RESPONSIVA DEL MAIN TAMAÑO MOVIL HORIZONTAL O TABLETS */
 
     .main {
-        grid-area: 2/1/3/5; /*No modificar, ubica main en el grid principal, */
-        /* rellenar aqui, podes usar cualquier display*/
+        grid-area: 2/1/3/5;
+        /*No modificar, ubica main en el grid principal, */
+        margin: 20px;
+    }
+
+    .tarjeta {
+        margin: 10px 0px;
+        padding: 10px;
+    }
+
+    .main h2 {
+        padding: 10px 0px;
+
+    }
+
+    .main p {
+        padding-bottom: 10px;
+        font-size: 1.3em;
+    }
+
+    .contenido {
+        grid-area: 1/4/2/7;
+    }
+
+    .tarjeta h3 {
+        padding: 30px 0px;
+
+    }
+
+    .tarjeta p {
+        padding: 8px;
+        margin-left: 10px;
+        font-size: 1em;
+    }
+
+    .tarjeta .imagenes {
+        grid-area: 1/1/2/4;
+
+    }
+
+    .imagenes img {
+        width: 100%;
+        max-height: 400px;
+        object-fit: cover;
+
     }
 
 
@@ -341,7 +469,7 @@
     .logo a img {
         width: 200px;
         vertical-align: middle;
-       
+
     }
 
     .nav {
@@ -412,10 +540,52 @@
     /* ESTE ES EL SECTOR PARA LA PARTE RESPONSIVA DEL MAIN TAMAÑO NOTEBOOKS */
 
     .main {
-        grid-area: 2/1/3/5; /*No modificar, ubica main en el grid principal, */
-        /* rellenar aqui, podes usar cualquier display*/
+        grid-area: 2/1/3/5;
+        /*No modificar, ubica main en el grid principal, */
+        margin: 70px;
     }
 
+    .tarjeta {
+        margin: 10px 0px;
+        padding: 10px;
+    }
+
+    .main h2 {
+        padding: 10px 0px;
+
+    }
+
+    .main p {
+        padding-bottom: 10px;
+        font-size: 1.3em;
+    }
+
+    .contenido {
+        grid-area: 1/5/2/7;
+    }
+
+    .tarjeta h3 {
+        padding: 30px 0px;
+
+    }
+
+    .tarjeta p {
+        padding: 8px;
+        margin-left: 10px;
+        font-size: 1em;
+    }
+
+    .tarjeta .imagenes {
+        grid-area: 1/1/2/5;
+
+    }
+
+    .imagenes img {
+        width: 100%;
+        max-height: 400px;
+        object-fit: cover;
+
+    }
 
     /* NO MODIFICAR DE AQUI EN ADELANTE */
 
