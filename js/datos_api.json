@@ -1,0 +1,240 @@
+{
+    "Cosechadoras": [
+        {
+            "Modelo": "Ss760",
+            "Motor": "Motor PowerTech™ PSS de 9 L",
+            "Potencia": "320 hp",
+            "Plataforma": "30/35 pies (Sinfín o FlexDraper)",
+            "CapacidadDeTolva": "10.600 L",
+            "CapacidadDeDescarga": "116 L/seg",
+            "PilotoAutomático": "De Serie",
+            "JDLINK": "Suscripción gratuita por un año",
+            "COMBINEaDVISOR": "Opcional",
+            "ACTIVEYIELD": "Opcional",
+            "imagen": "https://www.deere.com.ar/assets/images/region-3/products/harvesters/s-series/s760/s760_1_estudio_small_ed42626937f0e5bc1f6d15967f86610ee6d6c45d.jpg"
+        },
+        {
+            "Modelo": "Ss770",
+            "Motor": "Motor PowerTech™ PSS de 9 L",
+            "Potencia": "373 hp",
+            "Plataforma": "35/40 pies (Sinfín o FlexDraper)",
+            "CapacidadDeTolva": "11.600 L",
+            "Capacidad de descarga": "135 L/sec",
+            "PilotoAutomático": "De Serie",
+            "JDLINK": "Suscripción gratuita por un año",
+            "COMBINEaDVISOR": "Opcional",
+            "ACTIVEYIELD": "Opcional",
+            
+            "imagen": "https://www.deere.com.ar/assets/images/region-3/products/harvesters/s-series/s770/s770_campo_2_small_6f6e48bea6e0836addbf036ecff2725c787d3209.jpg"
+        },
+        {
+            "Modelo": "Ss780",
+            "Motor": "Motor PowerTech™ PSS de 13.5 L",
+            "Potencia": "473 hp",
+            "Plataforma": "40/45 pies (FlexDraper)",
+            "CapacidadDeTolva": "14.100 L",
+            "Capacidad de descarga": "135 L/seg",
+            "PilotoAutomático": "De Serie",
+            "JDLINK": "Suscripción gratuita por un año",
+            "COMBINEaDVISOR": "De Serie",
+            "ACTIVEYIELD": "Opcional",
+            
+            "imagen": "https://www.deere.com.ar/assets/images/region-3/products/harvesters/s-series/s780/s780_campo_1_small_25b5e668c02be21d4fd46b8955cc102512d86d8d.jpg"
+        },
+        {
+            "Modelo": "Ss790",
+            "Motor": "Motor PowerTech™ PSS de 13.5 L",
+            "Potencia": "543 hp",
+            "Plataforma": "45 pies (FlexDraper)",
+            "CapacidadDeTolva": "14.100 L",
+            "Capacidad de descarga": "135 L/seg",
+            "PilotoAutomático": "De Serie",
+            "JDLINK": "Suscripción gratuita por un año",
+            "COMBINEaDVISOR": "De Serie",
+            "ACTIVEYIELD": "Opcional",
+            
+            "imagen": "https://www.deere.com.ar/assets/images/region-3/products/harvesters/s-series/s790/s790_campo_1_small_ff4e5a9fb7ce3312b6974e7cec902f771d8282e5.jpg"
+        }
+    ],
+    "Tractores": [
+        {
+            "Modelo": "5070E",
+            "Motor": "PowerTech™ John Deere 3029h Diesel",
+            "Potencia": "60 hp",
+            "Transmisión": "Sincronizada 9x3",
+            "TomaDePotencia": "540 rpm",
+            "SistemaHidráulico": "A engranajes - Centro abierto 69 L",
+            "Levante3puntos": "Cat II 1800 kgf a 610 mm",
+            "Imagen": "https://www.deere.com.ar/assets/images/region-3/products/tractors/5e-series/5060e/5060e_r3g007067_small_edbbcb12af0093ff6af05766417ebddaca8ccbfe.jpg"
+        },
+        {
+            "Modelo": "5080E",
+            "Motor": "PowerTech™ John Deere 3029h Diesel",
+            "Potencia": "80 hp",
+            "Transmisión": "Sincronizada 9x3",
+            "TomaDePotencia": "540 rpm",
+            "SistemaHidráulico": "A engranajes - Centro abierto 69 L",
+            "Levante3puntos": "Cat II 1800 kgf a 610 mm",
+            "Imagen": "https://www.deere.com.ar/assets/images/region-3/products/tractors/5e-series/5080e/5080e_ae22578_small_b1df86fdc45ca76689a846f3131489dbfb0980c1.jpg"
+        },
+        {
+            "Modelo": "5082E",
+            "Motor": "John Deere 4045TP PowerTech™",
+            "Potencia": "82 hp",
+            "Transmisión": "Sincronizada 9/3 ó PowrReverser 12/12",
+            "TomaDePotencia": "540 rpm o 540/540E rpm",
+            "SistemaHidráulico": "Centro abierto 60 L/min",
+            "Levante3puntos": "Cat I, II 1398,3 kgf a 610 mm",
+            "Imagen": "https://www.deere.com.ar/assets/images/region-3/products/tractors/small/5e-series/5082E_campo_1_small_661f6cd6642d8cfec9d68215e24f521e4785b473.jpg"
+        },
+        {
+            "Modelo": "5090E",
+            "Motor": "John Deere 4045T PowerTech™",
+            "Potencia": "92 hp",
+            "Transmisión": "Sincronizada 9/3 o PowrReverser™ 12/12 ó",
+            "TomaDePotencia": "540 rpm o 540/540E rpm",
+            "SistemaHidráulico": "Centro abierto 60 L/min",
+            "Levante3puntos": "Cat I, II 1530 kgf a 610 mm",
+            "Imagen": "https://www.deere.com.ar/assets/images/region-3/products/tractors/small/5e-series/5090E_campo_1_small_00ef00808fb479dac7efd6de650fb91b57b61959.jpg"
+        },
+        {
+            "Modelo": "8245R",
+            "Motor": "John Deere PowerTech 9,0 L",
+            "Potencia": "245 hp",
+            "Transmisión": "e23 de 23 velocidades",
+            "TomaDePotencia": "Independiente de 1000 rpm",
+            "SistemaHidráulico": "227 L/min",
+            "Levante3puntos": "Opcional de 8482 kg de capacidad de levante",
+            "Imagen": "https://www.deere.com.ar/assets/images/region-3/products/tractors/heavy-tractors/8r-rt/8245r/tractor_8245r_estudio1_small_7f817daf829e763b400d190927a684d1c193e1f0.jpg"
+        },
+        {
+            "Modelo": "8295R",
+            "Motor": "John Deere PowerTech 9,0 L",
+            "Potencia": "295 hp",
+            "Transmisión": "e23 de 23 velocidades",
+            "TomaDePotencia": "Independiente de 1000 rpm",
+            "SistemaHidráulico": "227 L/min",
+            "Levante3puntos": "Opcional de 8482 kg de capacidad de levante",
+            "Imagen": "https://www.deere.com.ar/assets/images/region-3/products/tractors/large/8r-series/8295r/tractor_8295r_campo1_small_3fd3b19c4f5add19f0e66c0c92a7119be3efd4fa.jpg"
+        },
+        {
+            "Modelo": "8345R",
+            "Motor": "John Deere PowerTech 9,0 L",
+            "Potencia": "345 hp",
+            "Transmisión": "e23 de 23 velocidades",
+            "TomaDePotencia": "Independiente de 1000 rpm",
+            "SistemaHidráulico": "227 L/min",
+            "Levante3puntos": "Opcional de 8482 kg de capacidad de levante",
+            "Imagen": "https://www.deere.com.ar/assets/images/region-3/products/tractors/large/8r-series/8345r/tractor_8345r_campo1_large_02fe727f99b8ca79b91f27cae32c9d35fe79b392.jpg"
+        },
+        {
+            "Modelo": "9420R",
+            "Motor": "PowerTech Plus 13,5 L",
+            "Potencia": "420 hp",
+            "Transmisión": "e18 de 18 velocidades",
+            "TomaDePotencia": "1000 rpm",
+            "SistemaHidráulico": "215 L/min estándar, 435 L/min opcional",
+            "Levante3puntos": "-",
+            "Imagen": "https://www.deere.com.ar/assets/images/region-3/products/tractors/large/9r-series/9420r/tractor_9420r_estudio_small_9129ac6cde213a458e0b2151685f8325f0fb8611.jpg"
+        }
+    ],
+    "Plantadoras": [
+        {
+            "Modelo": "1745",
+            "lineas": "18 líneas a 52.5 cm, 20 líneas a 45 cm y 24 líneas a 38 cm",
+            "AnchoDeLabor": "9.5 m",
+            "CajaCentralDeSemillas": "2 Tolvas centrales de semilla (2450 L total).",
+            "DeslingueDeHileraAutomático": "si",
+            "TasaVariable": "2 secciones hidráulicas",
+            "Transporte": "Plegado frontal (ancho 4 m)",
+            "Imagen": "https://www.deere.com.ar/assets/images/region-3/products/drills/1745/1745_campo_1_small_177f82ca2d827e4a454a64c87bd31bd1d54d3423.jpg"
+        },
+        {
+            "Modelo": "DB41C",
+            "lineas": "33 líneas a 38 cm; 24 líneas a 52,5 cm",
+            "AnchoDeLabor": "12.6 m",
+            "CajaCentralDeSemillas": "2 tolvas centrales (3524 L) + tolva refugio (881 L)",
+            "DeslingueDeHileraAutomático": "si",
+            "TasaVariable": "3 secciones hidráulicas",
+            "Transporte": "Plegado frontal (ancho 4.6 m)",
+            "Imagen": "https://www.deere.com.ar/assets/images/region-3/products/drills/db41c/db41c_1064x768_small_82d144428bcbf2440552681aa86f92e4fb3e4130.jpg"
+        },
+        {
+            "Modelo": "DB60",
+            "lineas": "47 líneas a 38 cm",
+            "AnchoDeLabor": "18 m",
+            "CajaCentralDeSemillas": "2 tolvas centrales (3524 L) + tolva refugio (881 L)",
+            "DeslingueDeHileraAutomático": "si",
+            "TasaVariable": "3 secciones hidráulicas",
+            "Transporte": "Plegado frontal (ancho 5.3 m)",
+            "Imagen": "https://www.deere.com.ar/assets/images/region-3/products/drills/db60/db60_estudio_small_6280880c3e7c496061c018bff993164f06d9bec3.jpg"
+        },
+        {
+            "Modelo": "DB62",
+            "lineas": "36 líneas a 52.5 cm",
+            "AnchoDeLabor": "19 m",
+            "CajaCentralDeSemillas": "2 tolvas centrales (3524 L) + tolva refugio (881 L)",
+            "DeslingueDeHileraAutomático": "si",
+            "TasaVariable": "3 secciones hidráulicas",
+            "Transporte": "Plegado frontal (ancho 5.3 m)",
+            "Imagen": "https://www.deere.com.ar/assets/images/region-3/products/drills/db62/db62_1064x768_small_18a3d00f7eb309d8e0be0647a070a1a3dd0abcbe.jpg"
+        },
+        {
+            "Modelo": "DB83",
+            "lineas": "48 líneas a 52.5 cm",
+            "AnchoDeLabor": "25.2 m",
+            "cajaCentralDeSemillas": "2 tolvas centrales (3524 L) + tolva refugio (881 L)",
+            "DeslingueDeHileraAutomático": "si",
+            "TasaVariable": "3 secciones hidráulicas",
+            "Transporte": "Plegado frontal (ancho 5.3 m)",
+            "Imagen": "https://www.deere.com.ar/assets/images/region-3/products/drills/db83/db83_1064x768_small_c8fc629bef2a675a26607ec6c81acc1e6eccdd1c.jpg"
+        }
+    ],
+    "Baterias": [
+        {
+            "Código": "AJM2003",
+            "Ah": "60",
+            "CCA": "425",
+            "RC": "90",
+            "Medidas": "246 x 175 x 175",
+            "Aplicación": "Automóviles",
+            "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPMxOcSUrrf17cYxKhF4B7TXT2tZan1hgtthjeAKHj5KwbbNSGtsx1-1Mt8EPJ4KgY3-A&usqp=CAU"
+        },
+        {
+            "Código": "AJM2004",
+            "Ah": "60",
+            "CCA": "460",
+            "RC": "100",
+            "Medidas": "246 x 175 x 195",
+            "Aplicación": "Maquinaria",
+            "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEQQLy5vNBrdgKPpaUjJlLLe5xLYD5k7YHb2rNm84gavOVPtvcpA9RyzCCRn3ebdw7DGY&usqp=CAU"
+        },
+        {
+            "Código": "AJM2005",
+            "Ah": "75",
+            "CCA": "660",
+            "RC": "115",
+            "Medidas": "282 x 175 x 190",
+            "Aplicación": "Maquinaria",
+            "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHZc4ltD28TSYn1Ryewgvg2FhZ3S2TBlZsDQ&usqp=CAU"
+        },
+        {
+            "Código": "AJM2007",
+            "Ah": "90",
+            "CCA": "750",
+            "RC": "165",
+            "Medidas": "306 x 172 x 230",
+            "Aplicación": "Maquinaria",
+            "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzI_9_c_IeFJiFVVpkhqFKn5IigaaYmyCwClFibx_MZ10AZqsGSvlbj4pwbRbFtK8KKco&usqp=CAU"
+        },
+        {
+            "Código": "AJ63166",
+            "Ah": "150",
+            "CCA": "950",
+            "RC": "270",
+            "Medidas": "512 x 211 x 233",
+            "Aplicación": "Maquinaria, Camiones",
+            "Imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCObvKXDpx7eJtlQTl5umhdl92oF7AIhFrX6l387v5vV26BwqxyPYl_jy4DePnqt2pk7w&usqp=CAU"
+        }
+    ]
+}
