@@ -1,15 +1,19 @@
 document.getElementById("registroForm").addEventListener("submit", function(event) {
     event.preventDefault(); // Evitar que se envíe el formulario automáticamente
-var url = "https://maquinas-agricolas-default-rtdb.europe-west1.firebasedatabase.app/users.json";
+var url = "https://maquinas-agricolas-default-rtdb.europe-west1.firebasedatabase.app/users1.json";
+var loginName = document.getElementById("loginNombre").value;
+var loginApp = document.getElementById("loginApellido").value;
 var user = document.getElementById("email").value;
 var pass = document.getElementById("password").value;
 var datos = {
+  name_user: loginName,
+  a_user: loginApp, 
   email_user: user,
   pass_user: pass
 };
+console.log(datos)
 
-
-if (user==" "|| pass==""){
+if (user==" "|| pass==" "){
   alert("Complete los datos!");
 }else{
   fetch(url, {
@@ -23,7 +27,7 @@ if (user==" "|| pass==""){
 }
 
 
-console.log(datos)
+
 
 
 });
@@ -44,6 +48,7 @@ btn.addEventListener("click",function() {
 loginbtn.addEventListener("submit", function(event) {
 event.preventDefault(); // Evitar que se envíe el formulario automáticamente
 
+
 var loginUser = document.getElementById("loginEmail").value;
 var loginPass = document.getElementById("loginPassword").value;
 
@@ -51,7 +56,7 @@ console.log("loginUser");
 console.log("loginPass")
 
 // Realizar la petición GET a la API para obtener los registros
-fetch("https://maquinas-agricolas-default-rtdb.europe-west1.firebasedatabase.app/users.json")
+fetch("https://maquinas-agricolas-default-rtdb.europe-west1.firebasedatabase.app/users1.json")
 .then(function(response) {
   return response.json();
 })
