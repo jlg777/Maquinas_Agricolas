@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -64,8 +66,8 @@
 
     <!--Ventana modal-->
 
-    <div class="loginForm" id="loginForm1">
-        <form id="loginForm" >
+    <div class="loginForm bg-success " id="loginForm1">
+<!--        <form id="loginForm" >
             <div class="loginId">
                 <input type="email" id="loginEmail">
                 <label>Ingrese su email</label>
@@ -75,7 +77,22 @@
                 <label>Ingrese su password</label>
             </div>
             <button id="btn-login" type="submit">Log-in</button>
-            </form>
+        </form>-->
+        <form class="form-signin" id="loginForm">
+            <img class="mb-4" src="./img/logoempresa/ensigna1.png">
+            <h1 class="h3 mb-3 font-weight-normal">Por favor logueese</h1>
+            <label for="inputEmail" class="sr-only">Ingrese su email</label>
+            <input type="email" id="loginEmail" class="form-control" placeholder="Ingrese su email" required="" autofocus="">
+            <label for="inputPassword" class="sr-only">Ingrese su password</label>
+            <input type="password" id="loginPassword" class="form-control" placeholder="Ingrese su password" required="">
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me"> Recordar
+              </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
+            <p class="mt-5 mb-3 text-muted">© Ensigna 2023</p>
+          </form>
     </div>
 
 
@@ -113,6 +130,8 @@
 
     </div>
 <script type="text/javascript" src="../Maquinas_Agricolas/js/login.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

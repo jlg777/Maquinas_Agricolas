@@ -3,20 +3,29 @@ document.getElementById("registroForm").addEventListener("submit", function(even
 var url = "https://maquinas-agricolas-default-rtdb.europe-west1.firebasedatabase.app/users.json";
 var user = document.getElementById("email").value;
 var pass = document.getElementById("password").value;
-
 var datos = {
-    email_user: user,
-    pass_user: pass
+  email_user: user,
+  pass_user: pass
 };
-console.log(datos)
 
-fetch(url, {
+
+if (user==" "|| pass==""){
+  alert("Complete los datos!");
+}else{
+  fetch(url, {
     method: "POST",
     body: JSON.stringify(datos)
     })
     .then(function(response) {
         alert("Registro exitoso!");
+        document.getElementById("registroForm").reset();
     });
+}
+
+
+console.log(datos)
+
+
 });
 
 var btn = document.getElementById("btnlogin");
@@ -50,7 +59,17 @@ fetch("https://maquinas-agricolas-default-rtdb.europe-west1.firebasedatabase.app
     // Buscar el registro que coincida con el DNI y la contraseña ingresados
     for (var key in data) {
         if (data.hasOwnProperty(key) && data[key].email_user === loginUser && data[key].pass_user === loginPass) {
-            alert("Credenciales correctas");
+           
+          alert("Credenciales correctas!!");
+          localStorage.setItem('user',JSON.stringify(data[key]))
+          console.log(localStorage.getItem('user'));
+            // Redirigir al usuario a login.html
+          window.location.href = "index.html";
+          break;
+        }
+        else{
+          alert("Credenciales Incorrectas!!");
+          document.getElementById("loginForm").reset();
           break;
         }
       } 

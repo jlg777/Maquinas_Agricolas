@@ -418,7 +418,7 @@
     /* ESTE ES EL SECTOR PARA LA PARTE RESPONSIVA DEL MAIN TAMAÑO NOTEBOOKS */
     .loginForm{
     display: none;
-    position: fixed; /* Posición fija */
+    position: fixed;  /*Posición fija */
     
     z-index: 1; /* Se situará por encima de otros elementos de la página*/
     /*padding-top: 200px; /* El contenido estará situado a 200px de la parte superior */
@@ -427,7 +427,6 @@
     width: 100%; /* Ancho completo */
     height: 100%; /* Algura completa */
     overflow: auto; /* Se activará el scroll si es necesario */
-    background-color: rgba(0,0,0,0.5); /* Color negro con opacidad del 50% */
     }
 
     .loginId{
