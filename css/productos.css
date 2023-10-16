@@ -13,15 +13,15 @@
 
 .tarjeta {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(1, auto);
-
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(3, auto);
     border: 1px solid lightgray;
-    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    box-shadow: 2px 2px 1px 1px #d3d3d3d1;
     border-radius: 15px;
     font-family: sans-serif;
     background-color: rgba(253, 249, 185, 0.295);
     align-items: center;
+   
 
 
 }
@@ -34,6 +34,7 @@
 
 .tarjeta h3 {
     text-align: center;
+    color: green;
 
 
 }
@@ -45,9 +46,33 @@
 }
 
 .imagenes img {
+    object-fit: contain;
+    box-shadow: 1px 1px 4px 1px green;
+    
+    
+}
 
-    object-fit: cover;
+#btn{
+    padding: 0rem 1rem;
+    
+}
 
+.bts {
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    border: 1px solid green;
+    
+}
+
+.bts:hover{
+    cursor: pointer;
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+   
 }
 
 /* COMIENZA RESPONSIVO */
@@ -183,8 +208,6 @@
         object-fit: cover;
 
     }
-
-
 
     /* NO MODIFICAR DE AQUI EN ADELANTE, HASTA  NUEVO AVISO */
 
