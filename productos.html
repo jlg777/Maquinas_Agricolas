@@ -20,77 +20,99 @@
 
         </header>
         <main class="main" id="app">
-            
-                <h2>Cosechadoras</h2>
-                <p>Las cosechadoras de la Serie S están diseñadas para entregar una calidad absoluta al momento de la
-                    cosecha. La tecnología de rotor reduce en un 20% la fuerza requerida para mover el material a través
-                    de la cosechadora. Para el accionamiento del rotor es necesario menos potencia, lo que posibilita
-                    aumentar la velocidad de la cosecha.</p>
-                <div class="tarjeta" v-for="elemento in cosecha">
-                    <div class="contenido">
-                        <h3>Caracteristicas principales</h3>
-                        <p>Modelo: {{elemento.Modelo}}</p>
-                        <p>Motor: {{elemento.Motor}}</p>
-                        <p>Potencia: {{elemento.Potencia}}</p>
-                        <p>Plataforma: {{elemento.Plataforma}}</p>
-                        <p>Capacidad de tolva: {{elemento.CapacidadDeTolva}}</p>
-                        <p>Capacidad de descarga: {{elemento.CapacidadDeDescarga}}</p>
-                        <p>Piloto automático: {{elemento.PilotoAutomático}}</p>
-                        <p>JDLINK: {{elemento.JDLINK}}</p>
-                        <p>COMBINE ADVISOR: {{elemento.COMBINEaDVISOR}}</p>
-                        <p>ACTIVEYIELD: {{elemento.ACTIVEYIELD}}</p>
-                    </div>
-                    <div class="imagenes">
-                        <img v-bind:src="elemento.imagen" :alt="elemento.Modelo">
 
-                    </div>
+            <h2>Cosechadoras</h2>
+            <p>Las cosechadoras de la Serie S están diseñadas para entregar una calidad absoluta al momento de la
+                cosecha. La tecnología de rotor reduce en un 20% la fuerza requerida para mover el material a través
+                de la cosechadora. Para el accionamiento del rotor es necesario menos potencia, lo que posibilita
+                aumentar la velocidad de la cosecha.</p>
+            <div class="tarjeta" v-for="elemento in cosecha">
+                <div class="contenido">
+                    <h3>Caracteristicas principales</h3>
+                    <p>Modelo: {{elemento.Modelo}}</p>
+                    <p>Motor: {{elemento.Motor}}</p>
+                    <p>Potencia: {{elemento.Potencia}}</p>
+                    <p>Plataforma: {{elemento.Plataforma}}</p>
+                    <p>Capacidad de tolva: {{elemento.CapacidadDeTolva}}</p>
+                    <p>Capacidad de descarga: {{elemento.CapacidadDeDescarga}}</p>
+                    <p>Piloto automático: {{elemento.PilotoAutomático}}</p>
+                    <p>JDLINK: {{elemento.JDLINK}}</p>
+                    <p>COMBINE ADVISOR: {{elemento.COMBINEaDVISOR}}</p>
+                    <p>ACTIVEYIELD: {{elemento.ACTIVEYIELD}}</p>
+                </div>
+                <div class="imagenes">
+                    <img v-bind:src="elemento.imagen" :alt="elemento.Modelo">
+
+                </div>
+
+                <div id="btn">
+                    <a class="bts" href="./contacto.html" target="_blank">Consultar</a>
 
 
                 </div>
-                <h2>Plantadoras</h2>
-                <p>Consciente de que la siembra es una de las etapas más importantes de todo el ciclo productivo, la
-                    solución de siembra que ENSIGNA ofrece satisface todas las necesidades de aquellos que deben llevar
-                    a cabo la siembra con agilidad, precisión y economía, lo que garantiza el éxito de la producción a
-                    lo largo todo el ciclo.</p>
 
-                <div class="tarjeta" v-for="elemento in planta">
-                    <div class="contenido">
-                        <h3>Caracteristicas principales</h3>
-                        <p>Modelo: {{elemento.Modelo}}</p>
-                        <p>Nro. de líneas / espaciamiento: {{elemento.lineas}}</p>
-                        <p>Ancho de labor: {{elemento.AnchoDeLabor}}</p>
-                        <p>Caja central de semillas: {{elemento.CajaCentralDeSemillas}}</p>
-                        <p>Deslingue de hilera automático: {{elemento.DeslingueDeHileraAutomático}}</p>
-                        <p>Tasa variable: {{elemento.TasaVariable}}</p>
-                        <p>Transporte: {{elemento.Transporte}}</p>
-                    </div>
-                    <div class="imagenes">
-                        <img v-bind:src="elemento.Imagen" :alt="elemento.Modelo">
-                    </div>
+
+            </div>
+            <h2>Plantadoras</h2>
+            <p>Consciente de que la siembra es una de las etapas más importantes de todo el ciclo productivo, la
+                solución de siembra que ENSIGNA ofrece satisface todas las necesidades de aquellos que deben llevar
+                a cabo la siembra con agilidad, precisión y economía, lo que garantiza el éxito de la producción a
+                lo largo todo el ciclo.</p>
+
+            <div class="tarjeta" v-for="elemento in planta">
+                <div class="contenido">
+                    <h3>Caracteristicas principales</h3>
+                    <p>Modelo: {{elemento.Modelo}}</p>
+                    <p>Nro. de líneas / espaciamiento: {{elemento.lineas}}</p>
+                    <p>Ancho de labor: {{elemento.AnchoDeLabor}}</p>
+                    <p>Caja central de semillas: {{elemento.CajaCentralDeSemillas}}</p>
+                    <p>Deslingue de hilera automático: {{elemento.DeslingueDeHileraAutomático}}</p>
+                    <p>Tasa variable: {{elemento.TasaVariable}}</p>
+                    <p>Transporte: {{elemento.Transporte}}</p>
                 </div>
-                <h2>Tractores</h2>
-                <p>Bienvenido a la sección de tractores de ENSIGNA, donde la innovación se une a la potencia para
-                    ofrecerte un rendimiento excepcional en tus operaciones agrícolas. Nuestros tractores están
-                    diseñados para satisfacer las demandas más exigentes de la agricultura moderna, proporcionando la
-                    potencia y versatilidad que necesitas en cada campo.</p>
-
-                <div class="tarjeta" v-for="elemento in trac">
-                    <div class="contenido">
-                        <h3>Caracteristicas principales</h3>
-                        <p>Modelo: {{elemento.Modelo}}</p>
-                        <p>Motor: {{elemento.Motor}}</p>
-                        <p>Potencia: {{elemento.Potencia}}</p>
-                        <p>Transmisión: {{elemento.Transmisión}}</p>
-                        <p>Toma de potencia: {{elemento.TomaDePotencia}}</p>
-                        <p>Sistema hidráulico: {{elemento.SistemaHidráulico}}</p>
-                        <p>Levante 3 puntos: {{elemento.Levante3puntos}}</p>
-                    </div>
-                    <div class="imagenes">
-                        <img v-bind:src="elemento.Imagen" :alt="elemento.Modelo">
-                    </div>
+                <div class="imagenes">
+                    <img v-bind:src="elemento.Imagen" :alt="elemento.Modelo">
                 </div>
 
-            
+                <div id="btn">
+                    <a class="bts" href="./contacto.html" target="_blank">Consultar</a>
+
+
+                </div>
+
+
+            </div>
+            <h2>Tractores</h2>
+            <p>Bienvenido a la sección de tractores de ENSIGNA, donde la innovación se une a la potencia para
+                ofrecerte un rendimiento excepcional en tus operaciones agrícolas. Nuestros tractores están
+                diseñados para satisfacer las demandas más exigentes de la agricultura moderna, proporcionando la
+                potencia y versatilidad que necesitas en cada campo.</p>
+
+            <div class="tarjeta" v-for="elemento in trac">
+                <div class="contenido">
+                    <h3>Caracteristicas principales</h3>
+                    <p>Modelo: {{elemento.Modelo}}</p>
+                    <p>Motor: {{elemento.Motor}}</p>
+                    <p>Potencia: {{elemento.Potencia}}</p>
+                    <p>Transmisión: {{elemento.Transmisión}}</p>
+                    <p>Toma de potencia: {{elemento.TomaDePotencia}}</p>
+                    <p>Sistema hidráulico: {{elemento.SistemaHidráulico}}</p>
+                    <p>Levante 3 puntos: {{elemento.Levante3puntos}}</p>
+                </div>
+                <div class="imagenes">
+                    <img v-bind:src="elemento.Imagen" :alt="elemento.Modelo">
+                </div>
+
+
+                <div id="btn">
+                    <a class="bts" href="./contacto.html" target="_blank">Consultar</a>
+
+
+                </div>
+
+            </div>
+
+
         </main>
 
         <footer class="footer">
