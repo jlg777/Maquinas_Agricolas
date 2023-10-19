@@ -56,7 +56,7 @@ console.log(loginUser);
 console.log(loginPass)
 
 // Realizar la petición GET a la API para obtener los registros
-fetch("https://maquinas-agricolas-default-rtdb.europe-west1.firebasedatabase.app/users1.json")
+fetch("https://maquinas-agricolas-default-rtdb.europe-west1.firebasedatabase.app/user1.json")
 .then(function(response) {
   return response.json();
 })
