@@ -3,8 +3,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
-
 }
 
 .contenedor {
@@ -46,8 +44,6 @@ h2 {
     text-transform: uppercase;
 }
 
-
-
 form {
 
     width: 100%;
@@ -60,8 +56,7 @@ form {
 }
 
 .section_input {
-    margin-bottom: 15px;
-
+    margin-bottom: 0px;
 }
 
 .input {
@@ -103,8 +98,6 @@ input[type="submit"]:active {
     border-bottom: 3px solid rgb(214, 178, 18);
     background: linear-gradient(to top, transparent, rgb(0, 0, 0, 0.7));
 }
-
-
 
 
 .mail {

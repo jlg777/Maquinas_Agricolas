@@ -30,7 +30,7 @@
                     <h1 class="animate__animated animate__fadeInDown">Comunicate con nosotros</h1>
                     <h2 >Dejanos tu consulta</h2>
                 
-                    <form action="show_data.html" target="_blank">
+                    <form onsubmit="return validar();">
 
                         <label for="ente" class="form"> <h3>Motivo de consulta </h3></label>
 
@@ -42,39 +42,48 @@
                                     <option value="repuestos" class="input">Repuestos</option>
                                     <option value="administracion" class="input">Consulta Administrativa</option>
                                     <option value="otro" class="input">Otro</option>
-                                </select>    
+                                </select> 
+                                <div>&nbsp;</div>   
                             </div>   
 
                         <div class="section_input">
-                            <input type="text" id="nombre" name="nombre" class="input_" placeholder="Nombre y Apellido">
+                            <input type="text" id="nombre" name="nombre" class="input_" placeholder="Nombre y Apellido*" value="">
+                            <div id="validar_usuario" style="color:red;">&nbsp;</div>
                         </div>
                 
                         <div class="section_input">
-                            <input type="email" id="email" name="email" class="input_" placeholder="E-mail">
+                            <input type="email" id="email" name="email" class="input_" placeholder="E-mail*" value="">
+                            <div id="validar_email" style="color:red;">&nbsp;</div>
                         </div>
                 
                         <div class="section_input">
-                            <input type="text" id="telefono" name="telefono" class="input_" placeholder="Teléfono">
+                            <input type="text" id="telefono" name="telefono" class="input_" placeholder="Teléfono*" value="">
+                            <div id="validar_tel" style="color:red;">&nbsp;</div>
                         </div>
                 
                         <div class="section_input">
-                            <input type="text" id="cp" name="cp" class="input_" placeholder="Código Postal">
+                            <input type="text" id="cp" name="cp" class="input_" placeholder="Código Postal*" value="">
+                            <div id="validar_cp" style="color:red;">&nbsp;</div>
                         </div>
                 
                         <div class="section_input">
                             <input type="text" id="ciudad" name="ciudad" class="input_" placeholder="Ciudad">
+                            <div>&nbsp;</div>
                         </div>
                                 
                         <div class="section_input">
                             <input type="text" id="provincia" name="provincia" class="input_" placeholder="Provincia">
+                            <div>&nbsp;</div>
                         </div>
                 
                         <div class="section_input">
                             <input type="text" id="pais" name="pais" class="input_" placeholder="País">
+                            <div>&nbsp;</div>
                         </div>
                                 
                         <div class="section_input">
-                            <textarea id="comentario" name="comentario" rows="8" placeholder="Mensaje"></textarea>
+                            <textarea id="comentario" name="comentario" rows="8" placeholder="Mensaje*" value=""></textarea>
+                            <div id="validar_comentario" style="color:red;">&nbsp;</div>
                         </div>
                 
                         <div class="section_input">
@@ -134,6 +143,7 @@
         </footer>
 
     </div>
+    <script src="js/form.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
