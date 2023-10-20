@@ -1,15 +1,4 @@
 /* ****NO MODIFICAR ESTOS CODIGOS HASTA QUE SE MENCIONE, SON 3 LUGARES, UNO PARA CADA DISPOSITIVO (MAIN RESPONSIVO)   */
-* {
-    padding: 0;
-    margin: 0;
-}
-
-.contenedor {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, auto);
-
-}
 
 .tarjeta {
     display: grid;
@@ -20,36 +9,25 @@
     border-radius: 15px;
     font-family: sans-serif;
     background-color: rgba(253, 249, 185, 0.295);
-    align-items: center;
-   
-
-
+    align-items: center; 
 }
 
 .main p {
-
     text-align: justify;
-
 }
 
 .tarjeta h3 {
     text-align: center;
     color: green;
-
-
 }
 
 .tarjeta p {
-
     text-align: left;
-
 }
 
 .imagenes img {
     object-fit: contain;
-    box-shadow: 1px 1px 4px 1px green;
-    
-    
+    box-shadow: 1px 1px 4px 1px green;  
 }
 
 #btn{
@@ -65,18 +43,14 @@
     color: green;
     padding: 0.5rem 1.5rem;
     border-radius: 20px;
-    border: 1px solid green;
-   
-    
+    border: 1px solid green;  
 }
 
 .bts:hover{
     background-color: green;
     color: white;
-    cursor: pointer;
-   
-    border: 1px solid green;
-   
+    cursor: pointer;   
+    border: 1px solid green;   
 }
 
 /* COMIENZA RESPONSIVO */
@@ -86,104 +60,22 @@
 
 @media only screen and (max-width: 600px) {
 
-    .header {
-        grid-area: 1/1/2/5;
-        /* del grid contenedor*/
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, auto);
-    }
-
-    .logo {
-        grid-area: 1/1/2/5;
-        padding-top: 10px;
-        background-color: rgba(255, 255, 255, 0.4);
-        text-align: left;
-    }
-
-    .logo a img {
-        width: 120px;
-        margin-left: 8px;
-        max-width: 150px;
-    }
-
-    .nav {
-        /*iria menu hamburgesa en vez de los nombres*/
-        grid-area: 2/1/3/5;
-        text-align: center;
-        padding: 15px 0px;
-        /* background: url(../img/fondo7.jpg);
-        /*opcion 2*/
-        background: url(../img/fondo6.jpg);
-        background-position: center;
-        background-size: cover;
-        background-attachment: contain;
-        background-repeat: no-repeat;
-    }
-
-    .nav a {
-        color: #ffffff;
-        font-family: 'Oswald', sans-serif;
-        text-decoration: none;
-        font-size: 0.8rem;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        padding: 15px;
-    }
-
-    .nav a:hover {
-        color: darkorange;
-    }
-
-    .registro {
-        grid-area: 1/4/2/5;
-        flex-direction: column;
-        flex: 1 1 auto;
-        text-align: right;
-        padding-top: 15px;
-        padding-right: 10px;
-    }
-
-    #largo {
-        display: none;
-    }
-
-    #solo {
-        /*inicio usuario*/
-        color: rgb(0, 0, 0);
-    }
-
-
-    #solo:hover {
-        color: darkorange;
-    }
-
-    .slogan {
-        display: none;
-    }
-
-    /* ESTE ES EL SECTOR PARA LA PARTE RESPONSIVA DEL MAIN TAMAÑO TELEFONOS MOVILES */
-
     .main {
-        grid-area: 2/1/3/5;
-        /*No modificar, ubica main en el grid principal, */
         margin: 10px;
     }
 
     .tarjeta {
         margin: 10px 0px;
         padding: 10px;
-    }
+    }    
 
     .main h2 {
         padding: 10px 0px;
-
     }
 
     .main p {
         padding-bottom: 10px;
-        font-size: 1em;
-        
+        font-size: 0.8em;        
     }
     #btn{
         grid-area: 2/1/3/4;
@@ -196,7 +88,6 @@
     .tarjeta h3 {
         padding: 10px 0px;
         font-size: 0.9em;
-
     }
 
     .tarjeta p {
@@ -207,163 +98,20 @@
 
     .tarjeta .imagenes {
         grid-area: 1/1/2/4;
-
     }
 
     .imagenes img {
         width: 100%;
         max-height: 300px;
         object-fit: cover;
-
-    }
-
-    /* NO MODIFICAR DE AQUI EN ADELANTE, HASTA  NUEVO AVISO */
-
-    .footer {
-        grid-area: 3/1/4/5;
-        background-color: rgb(206, 206, 206);
-        /*background: url(../img/fondo6.jpg); /*opcion 2*/
-        background-position: center;
-        background-size: cover;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, auto);
-        row-gap: 5 px;
-        gap: 5 px;
-    }
-
-    .redsocial {
-        grid-area: 1/1/2/5;
-        text-align: center;
-        padding-top: 10px;
-    }
-
-    .redsocial a {
-        text-align: center;
-        margin-right: 30px;
-        text-decoration: none;
-    }
-
-    .links {
-        grid-area: 2/1/3/5;
-        text-align: center;
-        padding: 5px;
-    }
-
-    .links a {
-        text-decoration: none;
-        color: #000;
-        font-weight: 600;
-        justify-content: space-around;
-    }
-
-    .links a:hover {
-        color: darkorange;
-    }
-
-    .links li {
-        padding: 3px;
-    }
-
-    .copyright {
-        background-color: rgb(158, 158, 158);
-        grid-area: 3/1/4/5;
-        text-align: center;
-        padding: 10px;
-        color: #fff;
-    }
+    }   
 }
-
 
 /*##################################################################*/
 /*  moviles horizontales o tablets */
 /*##################################################################*/
 @media only screen and (min-width: 600px) {
-
-    .header {
-        grid-area: 1/1/2/5;
-        /*background: url(../img/fondo7.jpg);
-        /* opcion 2 */
-        background: url(../img/fondo6.jpg);
-        background-position: center;
-        background-size: cover;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 40px auto auto;
-        min-height: 120px;
-    }
-
-    .logo {
-        grid-area: 1/1/2/3;
-        padding: 10px;
-    }
-
-    .logo a img {
-        width: 120px;
-        height: auto;
-        text-align: left;
-    }
-
-    .nav {
-        grid-area: 2/1/3/5;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .nav a {
-        color: #ffffff;
-        font-family: 'Oswald', sans-serif;
-        text-decoration: none;
-        font-size: 1rem;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        margin-right: 25px;
-        /*separacion entre titulos*/
-        margin-left: 25px;
-    }
-
-    .nav a:hover {
-        color: darkorange;
-    }
-
-    .registro {
-        grid-area: 1/4/2/5;
-        flex-direction: column;
-        flex: 1 1 auto;
-        text-align: right;
-        padding-top: 15px;
-        padding-right: 10px;
-    }
-
-    #largo {
-        display: none;
-    }
-
-    #solo {
-        /*inicio usuario*/
-        color: rgb(0, 0, 0);
-    }
-
-    #solo:hover {
-        color: darkorange;
-    }
-
-    .slogan {
-        grid-area: 3/1/4/5;
-        font-family: 'Courier New', Courier, monospace;
-        color: #ffffff;
-        font-size: 0.5em;
-        text-align: left;
-        vertical-align: middle;
-        padding-left: 10px;
-    }
-
-
-    /* ESTE ES EL SECTOR PARA LA PARTE RESPONSIVA DEL MAIN TAMAÑO MOVIL HORIZONTAL O TABLETS */
-
     .main {
-        grid-area: 2/1/3/5;
-        /*No modificar, ubica main en el grid principal, */
         margin: 20px;
     }
 
@@ -374,12 +122,11 @@
 
     .main h2 {
         padding: 10px 0px;
-
     }
 
     .main p {
         padding-bottom: 10px;
-        font-size: 1.3em;
+        font-size: 1em;
     }
 
     .contenido {
@@ -388,7 +135,6 @@
 
     .tarjeta h3 {
         padding: 30px 0px;
-
     }
 
     .tarjeta p {
@@ -402,183 +148,23 @@
     }
     .tarjeta .imagenes {
         grid-area: 1/1/2/4;
-
     }
 
     .imagenes img {
         width: 100%;
         max-height: 400px;
         object-fit: cover;
-
-    }
-
-
-    /* NO MODIFICAR DE AQUI EN ADELANTE, HASTA  NUEVO AVISO */
-
-
-
-    .footer {
-        grid-area: 3/1/4/5;
-        background-color: rgb(206, 206, 206);
-        /*background: url(../img/fondo6.jpg);
-        /* opcion 2 */
-        background-position: center;
-        background-size: cover;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, auto);
-        row-gap: 5 px;
-        gap: 5 px;
-    }
-
-    .redsocial {
-        grid-area: 1/1/2/5;
-        text-align: center;
-        padding: 10px;
-    }
-
-    .redsocial a {
-        text-align: center;
-        margin-right: 30px;
-        text-decoration: none;
-    }
-
-    .links {
-        grid-area: 2/1/3/5;
-        text-align: center;
-        padding: 5px;
-    }
-
-    .links a {
-
-        text-decoration: none;
-        color: #000;
-        font-weight: 600;
-        justify-content: space-around;
-    }
-
-    .links a:hover {
-        color: darkorange;
-    }
-
-    .links li {
-        padding: 3px;
-    }
-
-    .copyright {
-        background-color: rgb(0, 0, 0, 0.5);
-        /* background-color: rgb(158, 158, 158); */
-        grid-area: 3/1/4/5;
-        text-align: center;
-        padding: 10px;
-        color: #fff;
     }
 }
-
 
 /*##################################################################*/
 /* notebooks */
 /*##################################################################*/
 
 @media only screen and (min-width: 1000px) {
-
-    .header {
-        grid-area: 1/1/2/5;
-        /*background: url(../img/fondo7.jpg); /* opcion 2 */
-        background: url(../img/fondo6.jpg);
-        background-position: center;
-        background-size: cover;
-        display: grid;
-        grid-template-columns: 0.8fr 1fr 1fr 0.8fr;
-        grid-template-rows: repeat(2, auto);
-        min-height: 130px;
-        align-content: center;
-        align-items: center;
-    }
-
-    .logo {
-        grid-area: 1/1/2/2;
-    }
-
-    .logo a img {
-        width: 200px;
-        vertical-align: middle;
-
-    }
-
-    .nav {
-        grid-area: 1/2/2/4;
-        text-align: center;
-    }
-
-    .nav a {
-        color: #ffffff;
-        font-family: 'Oswald', sans-serif;
-        text-decoration: none;
-        font-size: 1rem;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        /* margin-right: 45px; */
-        /* margin-left: 45px; */
-    }
-
-    .nav a:hover {
-        color: darkorange;
-    }
-
-    .registro {
-        grid-area: 1/4/2/5;
-        text-align: center;
-        border: 1px solid rgb(255, 255, 255);
-        border-radius: 4px;
-        padding: 4px 8px;
-        margin: 10px 10px;
-    }
-
-    .fa-solid {
-        padding-right: 10px;
-    }
-
-    #largo {
-        display: contents;
-        color: rgb(255, 255, 255);
-        font-family: 'Oswald', sans-serif;
-        text-decoration: none;
-        font-size: 1rem;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-
-    .registro:hover {
-        color: darkorange;
-        ;
-        background-color: rgb(0, 0, 0, 0.4);
-        border-radius: 4px;
-        padding: 4px 4px;
-    }
-
-    #solo {
-        display: none;
-    }
-
-    .slogan {
-        grid-area: 3/1/4/5;
-        font-family: 'Courier New', Courier, monospace;
-        color: #ffffff;
-        font-size: 0.5em;
-        text-align: left;
-        vertical-align: middle;
-        padding-left: 20px;
-    }
-
-    /* ESTE ES EL SECTOR PARA LA PARTE RESPONSIVA DEL MAIN TAMAÑO NOTEBOOKS */
-
     .main {
-        grid-area: 2/1/3/5;
-        /*No modificar, ubica main en el grid principal, */
         margin: 70px;
     }
-
     .tarjeta {
         margin: 10px 0px;
         padding: 10px;
@@ -586,12 +172,11 @@
 
     .main h2 {
         padding: 10px 0px;
-
     }
 
     .main p {
         padding-bottom: 10px;
-        font-size: 1.3em;
+        font-size: 1.3em;       
     }
 
     .contenido {
@@ -600,7 +185,6 @@
 
     .tarjeta h3 {
         padding: 30px 0px;
-
     }
 
     .tarjeta p {
@@ -614,73 +198,11 @@
     }
     .tarjeta .imagenes {
         grid-area: 1/1/3/5;
-
     }
 
     .imagenes img {
         width: 100%;
         max-height: 400px;
         object-fit: cover;
-
-    }
-
-    /* NO MODIFICAR DE AQUI EN ADELANTE */
-
-
-
-    .footer {
-        grid-area: 3/1/4/5;
-        background-color: rgb(206, 206, 206);
-        /*background: url(../img/fondo6.jpg); /*opcion 2 */
-        background-position: center;
-        background-size: cover;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, auto);
-        row-gap: 5 px;
-        gap: 5 px;
-    }
-
-    .redsocial {
-        grid-area: 1/1/2/5;
-        text-align: center;
-        padding: 10px;
-        text-decoration: none;
-    }
-
-    .redsocial a {
-        text-align: center;
-        margin-right: 30px;
-    }
-
-    .links {
-        grid-area: 2/1/3/5;
-        text-align: center;
-        padding: 5px;
-    }
-
-    .links a {
-
-        text-decoration: none;
-        color: #000;
-        font-weight: 600;
-        justify-content: space-around;
-    }
-
-    .links a:hover {
-        color: darkorange;
-    }
-
-    .links li {
-        padding: 3px;
-    }
-
-    .copyright {
-        background-color: rgb(0, 0, 0, 0.5);
-        /* background-color: rgb(158, 158, 158); */
-        grid-area: 3/1/4/5;
-        text-align: center;
-        padding: 10px;
-        color: #fff;
     }
 }
