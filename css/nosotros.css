@@ -1,8 +1,10 @@
-/* COMIENZA RESPONSIVO */
-/*##################################################################*/
-/* telefonos moviles orientacion vertical */
-/*##################################################################*/
-
+.cont-menu{
+    display: flexbox;
+    flex-direction: column;
+    height: 100%;
+    background: #1c1c1c;
+}
+       
 @media only screen and (max-width: 600px) {
 
     
@@ -17,10 +19,8 @@
     .cont-menu {
         width: 100%;
         max-width: 250px;
-        background: #1c1c1c;
-        height: 100vh;
-        position: relative;
-        display: none;
+        
+       
     }
 
     .cont-menu aside a {
@@ -78,12 +78,14 @@
 /*##################################################################*/
 
 @media only screen and (min-width: 1000px) {
-
+.container-menu{
+    height: 10px;
+}
     .cont-menu {
-        width: 100%;
-        max-width: 250px;
-        background: #1c1c1c;
-        height: 100vh;
+        /* width: 100%; */
+        /* max-width: 250px; */
+        /* background: #1c1c1c; */
+        /* height: 100vh; */
         position: relative;
         display: block;
     }
@@ -91,7 +93,7 @@
     .cont-menu aside a {
         display: block;
         text-decoration: none;
-        padding: 20px;
+        padding: 20px 20px 0px 20px;
         color: #c7c7c7;
         border-left: 5px solid transparent;
     }
