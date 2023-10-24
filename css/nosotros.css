@@ -44,7 +44,7 @@
     }
 
     .contenido{       
-       margin: 120px 10px 10px;
+       margin: 120px 20px 10px;
         grid-area: 2/1/3/7;
         display: flexbox;              
     }
@@ -89,7 +89,8 @@
   
 .contenido{
         grid-area: 1/2/3/7;
-        display: flexbox;             
+        display: flexbox;  
+        margin: 0px 30px;           
     }
 
     .container-menu a {
