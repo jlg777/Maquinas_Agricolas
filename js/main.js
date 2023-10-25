@@ -52,7 +52,7 @@ cad = `
 
         </div>
         <div class="copyright">
-            <p>Copyright 2023 - P A D I M A J O </p>
+            <p>Copyright 2023 - E N S I G N A </p>
             <p>Developed by Grupo Maquinarias Agrícolas </p>
         </div>
 `
