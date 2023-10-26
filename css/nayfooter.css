@@ -32,6 +32,11 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, auto);
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    
+    
 }
 
 .redsocial {
@@ -75,6 +80,7 @@
     text-align: center;
     padding: 10px;
     color: #fff;
+    font-size: 0.8rem;
 }
 
 /* COMIENZA RESPONSIVO */
@@ -101,6 +107,10 @@
         width: 120px;
         margin-left: 8px;
         max-width: 150px;
+    }
+
+    .footer{
+        font-size: 0.8rem;
     }
 
     .nav {
@@ -272,6 +282,7 @@
         color: #ffffff;
         font-size: 1rem;
         letter-spacing: 1px;
+        font-size: 1.2rem;
         /* margin-right: 45px; */
         /* margin-left: 45px; */
     }
