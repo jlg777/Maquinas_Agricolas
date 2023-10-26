@@ -78,15 +78,19 @@
 
 .main p {
     text-align: justify;
+    line-height: 23px;
 }
 
 .main h2 {
     text-decoration: underline;
+    letter-spacing: 1px;
     margin-bottom: 10px;
+    color: rgb(214, 178, 18);
 }
 
 h4 {
     margin: 10px 0px;
+    
 
 }
 
@@ -250,6 +254,7 @@ h4 {
     .main h2,
     h3 {
         padding: 10px 0px;
+        color: rgb(214, 178, 18);
     }
 
     .main p {
@@ -296,6 +301,7 @@ h4 {
     .main h2,
     h3 {
         padding: 10px 0px;
+        color: rgb(214, 178, 18);
     }
 
     .main p {
@@ -347,6 +353,7 @@ h4 {
     .main h2,
     h3 {
         padding: 10px 0px;
+        color: rgb(214, 178, 18);
     }
 
     .main p {

@@ -22,7 +22,8 @@
         grid-area: 1/1/2/7;
         text-align: center;
         align-items: center;
-        background-color: rgba(39, 39, 39);
+        background: green;
+        border-bottom: 2px solid rgb(214, 178, 18);
         width: 100%;   
         position: fixed;   
         top: 100px; 
@@ -30,6 +31,7 @@
     }
     .container-menu li{
         display: inline-block;
+        
     }
     .container-menu a:hover{
         font-weight: 600;       
@@ -51,6 +53,8 @@
 
     .main h2{
         font-size: 1em;
+        color: rgb(214, 178, 18);
+        letter-spacing: 1px;
     }
 
     .main h3{
@@ -60,6 +64,7 @@
     .main p{
         padding: 10px 0px;
         font-size: 0.8em;
+        line-height: 23px;
         text-align: justify;
     }
 }
@@ -73,7 +78,9 @@
     display: flexbox;
     flex-direction: column;
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background-color: green;
+    
+    
     /* position: fixed;   
     top: 0px;
     padding-top: 130px; 
@@ -84,6 +91,9 @@
     position: sticky;
     top: 0;
     margin-top: 30px;
+    background-color: transparent;
+    background: linear-gradient(to bottom, transparent, rgb(0, 0, 0, 0.5));
+    border-bottom: 2px solid rgb(214, 178, 18);
 
 }
   
@@ -111,11 +121,14 @@
     .main h2{
         font-size: 1.2em;
         padding: 10px 10px;
+        color: rgb(214, 178, 18);
+        letter-spacing: 1px;
     }  
 
     .main p{
         padding: 20px 10px;
         font-size: 0.9em;
+        line-height: 23px;
         text-align: justify;
     }
 }
